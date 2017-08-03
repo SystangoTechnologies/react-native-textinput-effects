@@ -24,12 +24,7 @@ You also need to install [react-native-vector-icons](https://github.com/oblador/
 |**`value`**|String|This value will be applied to the TextInput and change it's state on every render. Use this prop if you want a [Controlled Component](https://facebook.github.io/react/docs/forms.html#controlled-components).|
 |**`defaultValue`**|String|If you want to initialize the component with a non-empty value, you can supply a defaultValue prop. This prop creates an [Uncontrolled Component](https://facebook.github.io/react/docs/forms.html#uncontrolled-components) and is only used during initial render.|
 
-You can also use default [TextInput Props](https://facebook.github.io/react-native/docs/textinput.html#props). They'll be passed into TextInput component. E.g., use `TextInput`'s `onChange` prop to be notified on text changes.
-```js
-<Sae
-  onChangeText={(text) => { this.setState({textValue: text}) }
-/>
-```
+You can also use [TextInput Props](https://facebook.github.io/react-native/docs/textinput.html#props). They'll be passed into TextInput component.
 
 ### Props for TextInputEffects with an Icon
 
@@ -41,8 +36,7 @@ This component needs `Icon` component from `react-native-vector-icons` to operat
 |---|---|---|
 |**`iconClass`**|Object|The Icon component class you've imported from react-native-vector-icons.|
 |**`iconName`**|String|Name of the icon that is passed to Icon component.|
-|**`iconColor`**|String|Applied to the Icon component.|
-|**`iconSize`**|Number|Applied to the Icon component.|
+|**`iconColor`**|String|Applied to the container of the label view.|
 
 
 ## Example
@@ -96,7 +90,6 @@ const fumiInput = (
     iconClass={FontAwesomeIcon}
     iconName={'university'}
     iconColor={'#f95a25'}
-    iconSize={20}
   />
 );
 ```
@@ -104,7 +97,6 @@ const fumiInput = (
 
 ![](screenshots/kohana.gif)
 
-Kohana supports [Animated Native Driver](https://facebook.github.io/react-native/docs/animations.html#using-the-native-driver). You can use native driver by passing `useNativeDriver`.
 
 ```js
 import MaterialsIcon from 'react-native-vector-icons/MaterialIcons';
@@ -119,7 +111,6 @@ const kohanaInput = (
     iconColor={'#f4d29a'}
     labelStyle={{ color: '#91627b' }}
     inputStyle={{ color: '#91627b' }}
-    useNativeDriver
   />
 );
 ```

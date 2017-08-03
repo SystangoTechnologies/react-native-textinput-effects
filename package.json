@@ -1,8 +1,67 @@
 {
-  "name": "react-native-textinput-effects",
-  "version": "0.4.0",
+  "_args": [
+    [
+      {
+        "raw": "react-native-textinput-effects@^0.1.3",
+        "scope": null,
+        "escapedName": "react-native-textinput-effects",
+        "name": "react-native-textinput-effects",
+        "rawSpec": "^0.1.3",
+        "spec": ">=0.1.3 <0.2.0",
+        "type": "range"
+      },
+      "/Users/MacBookpro15/Projects/BatterVsPitcher"
+    ]
+  ],
+  "_from": "react-native-textinput-effects@>=0.1.3 <0.2.0",
+  "_id": "react-native-textinput-effects@0.1.3",
+  "_inCache": true,
+  "_location": "/react-native-textinput-effects",
+  "_nodeVersion": "4.2.1",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/react-native-textinput-effects-0.1.3.tgz_1469524017112_0.4438243724871427"
+  },
+  "_npmUser": {
+    "name": "halilb",
+    "email": "hbilir@gmail.com"
+  },
+  "_npmVersion": "3.7.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "react-native-textinput-effects@^0.1.3",
+    "scope": null,
+    "escapedName": "react-native-textinput-effects",
+    "name": "react-native-textinput-effects",
+    "rawSpec": "^0.1.3",
+    "spec": ">=0.1.3 <0.2.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-textinput-effects/-/react-native-textinput-effects-0.1.3.tgz",
+  "_shasum": "cda9b0398e0ab542a76c85ffc5b1ecd365fff5ac",
+  "_shrinkwrap": null,
+  "_spec": "react-native-textinput-effects@^0.1.3",
+  "_where": "/Users/MacBookpro15/Projects/BatterVsPitcher",
+  "author": {
+    "name": "Halil Bilir",
+    "email": "hbilir@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/halilb/react-native-textinput-effects/issues"
+  },
+  "dependencies": {},
   "description": "TextInput effects for react native",
-  "license": "MIT",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "cda9b0398e0ab542a76c85ffc5b1ecd365fff5ac",
+    "tarball": "https://registry.npmjs.org/react-native-textinput-effects/-/react-native-textinput-effects-0.1.3.tgz"
+  },
+  "gitHead": "57e938089753687a3652886d03a63305a66cf082",
+  "homepage": "https://github.com/halilb/react-native-textinput-effects#readme",
   "keywords": [
     "react",
     "react-component",
@@ -15,15 +74,21 @@
     "ios",
     "android"
   ],
+  "license": "MIT",
   "main": "lib/index.js",
-  "scripts": {},
+  "maintainers": [
+    {
+      "name": "halilb",
+      "email": "hbilir@gmail.com"
+    }
+  ],
+  "name": "react-native-textinput-effects",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/halilb/react-native-textinput-effects.git"
   },
-  "bugs": {
-    "url": "https://github.com/halilb/react-native-textinput-effects/issues"
-  },
-  "author": "Halil Bilir <hbilir@gmail.com>",
-  "homepage": "https://github.com/halilb/react-native-textinput-effects#readme"
+  "scripts": {},
+  "version": "0.1.3"
 }
