@@ -11,9 +11,30 @@
         "type": "range"
       },
       "/Users/MacBookpro15/Projects/BatterVsPitcher"
+    ],
+    [
+      {
+        "raw": "git+https://github.com/SystangoTechnologies/react-native-textinput-effects.git",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "git+https://github.com/SystangoTechnologies/react-native-textinput-effects.git",
+        "spec": "git+https://github.com/SystangoTechnologies/react-native-textinput-effects.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:SystangoTechnologies/react-native-textinput-effects.git",
+          "sshUrl": "git+ssh://git@github.com/SystangoTechnologies/react-native-textinput-effects.git",
+          "httpsUrl": "git+https://github.com/SystangoTechnologies/react-native-textinput-effects.git",
+          "gitUrl": "git://github.com/SystangoTechnologies/react-native-textinput-effects.git",
+          "shortcut": "github:SystangoTechnologies/react-native-textinput-effects",
+          "directUrl": "https://raw.githubusercontent.com/SystangoTechnologies/react-native-textinput-effects/master/package.json"
+        }
+      },
+      "/Users/stplmacmini19/Projects/BatterVsPitcher 3"
     ]
   ],
-  "_from": "react-native-textinput-effects@>=0.1.3 <0.2.0",
+  "_from": "git+https://github.com/SystangoTechnologies/react-native-textinput-effects.git",
   "_id": "react-native-textinput-effects@0.1.3",
   "_inCache": true,
   "_location": "/react-native-textinput-effects",
@@ -29,22 +50,32 @@
   "_npmVersion": "3.7.3",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "react-native-textinput-effects@^0.1.3",
+    "raw": "git+https://github.com/SystangoTechnologies/react-native-textinput-effects.git",
     "scope": null,
-    "escapedName": "react-native-textinput-effects",
-    "name": "react-native-textinput-effects",
-    "rawSpec": "^0.1.3",
-    "spec": ">=0.1.3 <0.2.0",
-    "type": "range"
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "git+https://github.com/SystangoTechnologies/react-native-textinput-effects.git",
+    "spec": "git+https://github.com/SystangoTechnologies/react-native-textinput-effects.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:SystangoTechnologies/react-native-textinput-effects.git",
+      "sshUrl": "git+ssh://git@github.com/SystangoTechnologies/react-native-textinput-effects.git",
+      "httpsUrl": "git+https://github.com/SystangoTechnologies/react-native-textinput-effects.git",
+      "gitUrl": "git://github.com/SystangoTechnologies/react-native-textinput-effects.git",
+      "shortcut": "github:SystangoTechnologies/react-native-textinput-effects",
+      "directUrl": "https://raw.githubusercontent.com/SystangoTechnologies/react-native-textinput-effects/master/package.json"
+    }
   },
   "_requiredBy": [
+    "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/react-native-textinput-effects/-/react-native-textinput-effects-0.1.3.tgz",
-  "_shasum": "cda9b0398e0ab542a76c85ffc5b1ecd365fff5ac",
+  "_resolved": "git+https://github.com/SystangoTechnologies/react-native-textinput-effects.git#c7714471e9edc1764fc1ae45691883fb4d4f4a9c",
+  "_shasum": "16a91a152e198b2ff73fae0547a3621d861492b8",
   "_shrinkwrap": null,
-  "_spec": "react-native-textinput-effects@^0.1.3",
-  "_where": "/Users/MacBookpro15/Projects/BatterVsPitcher",
+  "_spec": "git+https://github.com/SystangoTechnologies/react-native-textinput-effects.git",
+  "_where": "/Users/stplmacmini19/Projects/BatterVsPitcher 3",
   "author": {
     "name": "Halil Bilir",
     "email": "hbilir@gmail.com"
